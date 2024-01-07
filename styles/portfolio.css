@@ -67,7 +67,7 @@ header{
     max-width: 500px;
 }
 .banner .profile-pic{
-   
+    width:55%;
    background-image: url("../images/header_bg.png");
    
    width: 1036px;
@@ -81,12 +81,12 @@ height: 518px;
 }
 .banner-title{
     color: #181818;
-    font-size: 85px;
+    font-size: 80px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 .banner-para{
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 30px;
 }
 /*main section styles*/
@@ -206,7 +206,32 @@ margin-bottom: 5px;
 /* footer style */
 footer{
   display: flex;
+  gap:100px;
  background: #FFF8F3;
  padding: 130px 200px;
  margin-top: 100px;
 }
+.footer-column{
+    width: 50%;;
+}
+.social-links a{
+    margin-right: 24px;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+    color: #757575;
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border:0;
+    width: 100%;
+    
+}
+
+input{
+    margin-bottom: 24px;
+}
+Submit{
+    border-radius: 5px;
+background: #FD6E0A;
+} 
